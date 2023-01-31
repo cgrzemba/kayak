@@ -84,8 +84,8 @@ DST_ISO=$BUILDSEND_MP/${VERSION}.iso
 # Source of files needed for build
 
 PROTO=
-[ -n "$PREBUILT_ILLUMOS" -a -d $PREBUILT_ILLUMOS/proto/root_i386-nd ] \
-    && PROTO=$PREBUILT_ILLUMOS/proto/root_i386-nd
+[ -n "$PREBUILT_ILLUMOS" -a -d $PREBUILT_ILLUMOS/proto/root_i386 ] \
+    && PROTO=$PREBUILT_ILLUMOS/proto/root_i386
 
 #############################################################################
 #
@@ -157,11 +157,16 @@ fi
 
 stage "Adding p5p files"
 mkdir -p $ISO_ROOT/image/p5p
-for p in $BUILDSEND_MP/*.p5p; do
+ls $BUILDSEND_MP/*.p5p || SKIPNEXT=1
+if [[ $SKIPNEXT -ne 0 ]]; then
+  echo "no extra p5p"
+else
+  for p in $BUILDSEND_MP/*.p5p; do
 	[ -f "$p" ] || exit 1
 	echo "* $p"
 	cp $p $ISO_ROOT/image/p5p/
-done
+  done
+fi
 
 #############################################################################
 # Put additional files into the boot-archive on $BA_ROOT, which is

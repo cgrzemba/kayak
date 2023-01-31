@@ -43,10 +43,10 @@ export VERSION=`head -1 /etc/release | awk '{print $3}'`
 
 if [ $debug -eq 0 -a ! -d /.cdrom/image ]; then
 	echo
-	echo "Scanning for media..."
+	echo "Scanning for media $VERSION ..."
 	mkdir /.cdrom
 	mkdir /.usbdrive
-	/kayak/bin/mount_media $VERSION
+	/kayak/bin/mount_media -v -d $VERSION
 fi
 
 if [ ! -f /.cdrom/.volsetid ]; then

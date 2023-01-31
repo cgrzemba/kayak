@@ -83,6 +83,7 @@ else
     MP=`zfs get -o value -H mountpoint $ZROOT/$name`
     [ -n "$MP" -a -d "$MP" ] || fail "$MP is not a directory"
     note "Creating IPS image"
+    echo "pkg image-create -F -p $OOCEPUB=$PKGURL $MP"
     pkg image-create -F -p $OOCEPUB=$PKGURL $MP || fail "image-create"
     export PKG_IMAGE=$MP
     [ -n "$DEBUG_VARIANT" ] && pkg change-variant debug.illumos=true
@@ -103,7 +104,7 @@ while read p v; do
 done < <(pkg contents -rH -a type=optional \
     -o fmri,variant.opensolaris.zone $entire_fmri)
 
-pkg install ${optlist[*]} || fail "install optional entire"
+pkg install -g https://pkg.omnios.org/r151044/core/ ${optlist[*]} || fail "install optional entire jo"
 
 if [ -n "$PROFILE" ]; then
     note "Applying custom profile: $PROFILE"

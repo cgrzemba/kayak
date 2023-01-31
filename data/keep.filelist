@@ -124,8 +124,10 @@
 /usr/bin/locale
 /usr/bin/ls
 /usr/bin/md5sum
+/usr/bin/mdb
 /usr/bin/mkdir
 /usr/bin/mkfifo
+/usr/bin/mkisofs
 /usr/bin/mktemp
 /usr/bin/moe
 /usr/bin/more
@@ -139,6 +141,7 @@
 /usr/bin/printf
 /usr/bin/ps
 /usr/bin/pv
+/usr/bin/python3.10
 /usr/bin/rm
 /usr/bin/rmdir
 /usr/bin/sed
@@ -222,6 +225,7 @@
 /usr/sbin/beadm
 /usr/sbin/bhhwcompat
 /usr/sbin/bootadm
+/usr/sbin/cfgadm
 /usr/sbin/chroot
 /usr/sbin/clri
 /usr/sbin/devfsadm
@@ -237,6 +241,7 @@
 /usr/sbin/killall
 /usr/sbin/lockfs
 /usr/sbin/lofiadm
+/usr/sbin/luxadm
 /usr/sbin/mkfile
 /usr/sbin/mkfs
 /usr/sbin/modinfo
@@ -256,6 +261,7 @@
 /usr/sbin/rem_drv
 /usr/sbin/rpcbind
 /usr/sbin/smbios
+/usr/sbin/snoop
 /usr/sbin/svcadm
 /usr/sbin/svccfg
 /usr/sbin/uadmin

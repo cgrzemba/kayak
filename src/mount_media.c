@@ -325,7 +325,7 @@ mount_minor(di_node_t node, di_minor_t minor, void *arg)
 
 	goto end;
 
-mount:
+mount: ;
 	/* Remove raw suffix from path to get to block device for mount */
 	char *cp = strstr(mpath, ",raw");
 	if (cp != NULL)

@@ -49,8 +49,8 @@ set -o errexit
 # Find UEFI boot files
 
 PROTO=
-[ -n "$PREBUILT_ILLUMOS" -a -d $PREBUILT_ILLUMOS/proto/root_i386-nd ] \
-    && PROTO=$PREBUILT_ILLUMOS/proto/root_i386-nd
+[ -n "$PREBUILT_ILLUMOS" -a -d $PREBUILT_ILLUMOS/proto/root_i386 ] \
+    && PROTO=$PREBUILT_ILLUMOS/proto/root_i386
 
 protocnt=0
 livecnt=0

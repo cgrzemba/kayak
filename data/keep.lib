@@ -24,6 +24,7 @@
 /lib/amd64/libfdisk.so.1
 /lib/amd64/libgen.so.1
 /lib/amd64/libinetutil.so.1
+/lib/amd64/libintl.so.1
 /lib/amd64/libkstat.so.1
 /lib/amd64/libm.so.2
 /lib/amd64/libmd.so.1
@@ -40,6 +41,7 @@
 /lib/amd64/libscf.so.1
 /lib/amd64/libsec.so.1
 /lib/amd64/libsecdb.so.1
+/lib/amd64/libsendfile.so.1
 /lib/amd64/libsocket.so.1
 /lib/amd64/libssl.so.3
 /lib/amd64/libsysevent.so.1
@@ -77,6 +79,7 @@
 /lib/libcurses.so
 /lib/libcurses.so.1
 /lib/libcustr.so.1
+/lib/libdevice.so.1
 /lib/libdevid.so.1
 /lib/libdevinfo.so.1
 /lib/libdhcpagent.so.1
@@ -257,6 +260,7 @@
 /usr/lib/amd64/libsocket.so.1
 /usr/lib/amd64/libssl.so.*
 /usr/lib/amd64/libssp.so.*
+/usr/lib/amd64/libpython3.10.so.*
 /usr/lib/amd64/libuutil.so
 /usr/lib/amd64/libuutil.so.1
 /usr/lib/amd64/libz.so
@@ -331,6 +335,7 @@
 /usr/lib/inet
 /usr/lib/inet/in.mpathd
 /usr/lib/ld.so.1
+/usr/lib/libHBAAPI.so.1
 /usr/lib/lddstub
 /usr/lib/libast.so.1
 /usr/lib/libbe.so.1
@@ -339,6 +344,7 @@
 /usr/lib/libc/libc_hwcap1.so.1
 /usr/lib/libc/libc_hwcap2.so.1
 /usr/lib/libc/libc_hwcap3.so.1
+/usr/lib/libcfgadm.so.1
 /usr/lib/libcmd.so.1
 /usr/lib/libdiskmgt.so.1
 /usr/lib/libdll.so.1
@@ -369,6 +375,7 @@
 /usr/lib/libssp.so.*
 /usr/lib/libsum.so.1
 /usr/lib/libtecla.so.1
+/usr/lib/libvolmgt.so.1
 /usr/lib/libz.so
 /usr/lib/libz.so.*
 /usr/lib/libzfsbootenv.so.1
