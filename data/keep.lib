@@ -375,7 +375,6 @@
 /usr/lib/libssp.so.*
 /usr/lib/libsum.so.1
 /usr/lib/libtecla.so.1
-/usr/lib/libvolmgt.so.1
 /usr/lib/libz.so
 /usr/lib/libz.so.*
 /usr/lib/libzfsbootenv.so.1
