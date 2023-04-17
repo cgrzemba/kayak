@@ -269,6 +269,7 @@
 /usr/sbin/ucodeadm
 /usr/sbin/umount
 /usr/sbin/update_drv
+/usr/sbin/zdb
 /usr/sbin/zfs
 /usr/sbin/zpool
 /usr/sbin/zstreamdump
