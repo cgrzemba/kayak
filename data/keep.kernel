@@ -137,6 +137,7 @@
 /kernel/drv/amd64/kmdb
 /kernel/drv/amd64/kssl
 /kernel/drv/amd64/llc1
+/kernel/drv/amd64/lmrc
 /kernel/drv/amd64/lockstat
 /kernel/drv/amd64/lofi
 /kernel/drv/amd64/log
@@ -324,6 +325,7 @@
 /kernel/drv/kmdb.conf
 /kernel/drv/kssl.conf
 /kernel/drv/llc1.conf
+/kernel/drv/lmrc.conf
 /kernel/drv/lockstat.conf
 /kernel/drv/lofi.conf
 /kernel/drv/log.conf

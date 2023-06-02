@@ -94,6 +94,7 @@ driver/storage/marvell88sx
 driver/storage/mega_sas
 driver/storage/mpt_sas
 driver/storage/mr_sas
+driver/storage/lmrc
 driver/storage/nv_sata
 driver/storage/nvme
 driver/storage/pmcs
