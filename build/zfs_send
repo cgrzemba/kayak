@@ -178,7 +178,7 @@ if ((INSTALL_ENTIRE)); then
     done < <(pkg contents -rH -a type=optional \
         -o fmri,variant.opensolaris.zone $entire_fmri)
 
-    pkg install -g https://pkg.omnios.org/r151044/core/ ${optlist[*]} || fail "install optional entire jo"
+    pkg install -g https://pkg.omnios.org/r151046/core/ ${optlist[*]} || fail "install optional entire jo"
 fi
 
 if [ -n "$PROFILE" ]; then

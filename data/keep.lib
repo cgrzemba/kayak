@@ -260,7 +260,7 @@
 /usr/lib/amd64/libsocket.so.1
 /usr/lib/amd64/libssl.so.*
 /usr/lib/amd64/libssp.so.*
-/usr/lib/amd64/libpython3.10.so.*
+/usr/lib/amd64/libpython3.11.so.*
 /usr/lib/amd64/libuutil.so
 /usr/lib/amd64/libuutil.so.1
 /usr/lib/amd64/libz.so
